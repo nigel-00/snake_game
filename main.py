@@ -28,7 +28,7 @@ food = Food()
 #create a scoreboard 
 score = ScoreBoard()
 #use the arrow keys to move the snake 
-#listen method
+#listen method*
 screen.listen()
 screen.onkey(snake.up, "Up")
 screen.onkey(snake.down, "Down")
